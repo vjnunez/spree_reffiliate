@@ -38,5 +38,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'shoulda-matchers'
   s.add_development_dependency 'shoulda-callback-matchers'
   s.add_development_dependency 'appraisal'
+  s.add_development_dependency 'awesome_print'
 
 end

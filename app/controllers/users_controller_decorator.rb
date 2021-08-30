@@ -1,4 +1,4 @@
-module Spree::UsersControllerDecorator
+module UsersControllerDecorator
 
   def self.prepended(base)
     base.prepend_before_action :affiliate_user, only: :update
@@ -31,4 +31,4 @@ module Spree::UsersControllerDecorator
 
 end
 
-::Spree::UsersController.prepend(Spree::UsersControllerDecorator)
+::Spree::UsersController.prepend(UsersControllerDecorator)
